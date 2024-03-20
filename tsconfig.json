@@ -2,12 +2,17 @@
     "compilerOptions": {
         "allowJs": true,
         "checkJs": true,
+        "strict": true,
         "noEmit": true,
         "noImplicitAny": true,
+        "target": "es2022",
+        "module": "node16",
+        "moduleResolution": "node16",
         "allowSyntheticDefaultImports": true,
-        "moduleResolution": "node",
-        "module": "es2022",
-        "target": "es2017"
+        "baseUrl": "."
+        // "paths": {
+        // 	"@sveltejs/kit": ["./kit/types/index"]
+        // }
     },
-    "include": ["index.ts", "src/**/*.ts", "ambient.d.ts"]
+    "include": ["**/*.js", "./index.d.ts", "./utils.ts"]
 }

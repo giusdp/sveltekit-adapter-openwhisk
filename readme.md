@@ -72,7 +72,7 @@ interface AdapterOptions {
      * whether to include polyfill for nodejs, default: true
      */
     polyfill?: boolean;
-    
+
     /**
      * whether to include polyfill for nodejs, default: ''
      */
